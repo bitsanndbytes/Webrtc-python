@@ -1,2 +1,5 @@
+edit the camera source in webcam.py
 run webcam.py 
-edit the camera source and webcam.py and go to webpage and click start
+go to webpage and click start
+
+
