@@ -76,7 +76,7 @@ class VideoStream(VideoStreamTrack):
     def __init__(self, source_track):
         super().__init__()
         self.source_track = source_track
-        self.cap = cv2.VideoCapture("rtsp://admin:Water44!@10.0.0.108:554/cam/realmonitor?channel=1&subtype=0")
+        self.cap = cv2.VideoCapture("rtsp://user:pw@ipaddress:514/cam/realmonitor?channel=1&subtype=0")
 
     async def recv(self):
         ret, img = self.cap.read()
